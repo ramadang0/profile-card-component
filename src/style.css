@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+.main-card{
+  padding: 2rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.container{
+  display: flex;
+  gap: 2rem;
+}
+
+.img-container{
+  margin-right: 1rem;
+}
+
+img{
+  border-radius: 25rem;
+}
+
+.content-container{
+  margin-top: 2rem;
+
+}
+
+.hero-text{
+  margin-bottom: .5rem;
+}
+
+.job-text{
+  font-weight: lighter;
+  margin-bottom: .5rem;
+}
+
+.desc-text{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.follower-data-list{
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.follower-list, .following-list, .projects-list{
+  text-align: center;
+}
+
+.follow-btn, .view-profile-btn{
+  background-color: aqua;
+  padding: .7rem;
+  border-radius: .7rem;
+  width: 7rem
+}
+
+.view-profile-btn{
+  background-color: orange;
+}
